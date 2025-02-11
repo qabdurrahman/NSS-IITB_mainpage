@@ -1,0 +1,2403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>NSS IIT Bombay</title>
+  <meta property="og:title" content="NSS IIT Bombay" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="jetanim (2).js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <!-- Font Awesome CSS (optional) -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+
+
+
+  <!-- Custom styles for rotated carousel -->
+
+  <style data-tag="reset-style-sheet">
+    html {
+      line-height: 1.15;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    * {
+      box-sizing: content-box;
+      border-width: 0;
+      border-style: solid;
+    }
+
+    p,
+    li,
+    ul,
+    pre,
+    div,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    figure,
+    blockquote,
+    figcaption {
+      margin: 5px;
+      padding: 0;
+    }
+
+    .button {
+      background-color: transparent;
+    }
+
+    button,
+    input,
+    optgroup,
+    select,
+    textarea {
+      font-family: inherit;
+      font-size: 100%;
+      line-height: 1.15;
+      margin: 0;
+    }
+
+    button,
+    select {
+      text-transform: none;
+    }
+
+    button,
+    [type="button"],
+    [type="reset"],
+    [type="submit"] {
+      -webkit-appearance: button;
+    }
+
+    button::-moz-focus-inner,
+    [type="button"]::-moz-focus-inner,
+    [type="reset"]::-moz-focus-inner,
+    [type="submit"]::-moz-focus-inner {
+      border-style: none;
+      padding: 0;
+    }
+
+    button:-moz-focus,
+    [type="button"]:-moz-focus,
+    [type="reset"]:-moz-focus,
+    [type="submit"]:-moz-focus {
+      outline: 1px dotted ButtonText;
+    }
+
+    input {
+      padding: 2px 4px;
+    }
+
+    img {
+      display: block;
+    }
+
+    .data {
+      display: grid;
+
+      row-gap: 2vh;
+      grid-template-rows: 3vh 3vh 3vh;
+      align-items: center;
+    }
+
+    .footer-phone {
+      height: 3vh;
+      /* width: 3vh; */
+      grid-column: 1;
+      grid-row: 2;
+    }
+
+    .footer-gps {
+      height: 3vh;
+      /* width: 3vh; */
+      grid-column: 1;
+      grid-row: 1;
+    }
+
+    .footer-mail {
+      height: 3vh;
+      /* width: 3vh; */
+      grid-column: 1;
+      grid-row: 3;
+      margin-right: 1vw;
+    }
+
+    .loc {
+      grid-column: 2;
+      grid-row: 1;
+    }
+
+    .socials {
+      display: flex;
+      justify-content: center;
+      margin-top: 5vh;
+    }
+
+    .twitter {
+      height: 4vh !important;
+      margin-top: 0.5vh;
+      margin-right: 20px;
+    }
+
+    .linkedin {
+      height: 5vh !important;
+      margin-right: 20px;
+    }
+
+    .copyright {
+      margin-top: 4vh;
+      text-align: center;
+    }
+
+    html {
+      scroll-behavior: smooth
+    }
+  </style>
+  <style data-tag="default-style-sheet">
+    html {
+      font-family: Inter;
+      font-size: 16px;
+    }
+
+    body {
+      font-weight: 400;
+      font-style: normal;
+      text-decoration: none;
+      text-transform: none;
+      letter-spacing: normal;
+      line-height: 1.15;
+      color: var(--dl-color-gray-black);
+      background-color: var(--dl-color-gray-white);
+
+    }
+
+
+    /* footer classses */
+    .footer {
+      min-height: 50vh;
+      background-color: black !important;
+      justify-content: center;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin-top: 20px;
+      padding: 40px 0;
+    }
+
+    .footer-flex {
+      width: 80vw;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin: auto;
+      /* margin-top: 10vh; */
+    }
+
+    .footer-about-us {
+      min-height: fit-content;
+      width: 20vw;
+    }
+
+    .footer-title {
+      color: white;
+      text-decoration: underline;
+    }
+
+    h3 {
+      font-size: 23px;
+      font-weight: 700;
+      margin-top: 0px;
+      display: block;
+      /* font-size: 1.17em; */
+      margin-block-start: 2em;
+      margin-block-end: 2em;
+      margin-inline-start: 0px;
+      margin-inline-end: 10px;
+      /* font-weight: bold; */
+    }
+
+
+    .recent-blogs {
+      height: 40vh;
+      width: 20vw;
+    }
+
+    .blog {
+      display: grid !important;
+      column-gap: 1vh;
+      row-gap: 0vw;
+      margin-bottom: 5vh;
+      align-items: end !important;
+    }
+
+    .blog-image-link {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 1;
+      grid-row-end: 3;
+    }
+
+    .blog-image {
+      height: 9vh;
+      width: 9vh;
+    }
+
+    .blog-text-link {
+      grid-column-start: 2;
+      grid-column-end: 4;
+      grid-row-start: 1;
+      grid-row-end: 2;
+      margin-bottom: 0 !important;
+      padding: 0 !important;
+      text-decoration: none;
+      color: white;
+    }
+
+    .blog-text {
+      margin: 0 !important;
+      font-size: 70% !important;
+    }
+
+    .blog-cal {
+      height: 4vh;
+      width: 4vh;
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 2;
+      grid-row-end: 3;
+      filter: invert(100%) brightness(1000%);
+    }
+
+    .blog-date {
+      grid-column-start: 3;
+      grid-column-end: 4;
+      grid-row-start: 2;
+      grid-row-end: 3;
+      margin: 0 !important;
+      font-size: 70% !important;
+    }
+
+    .blog {
+      display: grid !important;
+      column-gap: 1vh;
+      row-gap: 0vw;
+      margin-bottom: 5vh;
+      align-items: end !important;
+    }
+
+    :root {
+      --surface-color: #fff;
+      --curve: 40;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Noto Sans JP', sans-serif;
+      background-color: #fef8f8;
+    }
+
+    .home-our-reach1 {
+      background-color: #0e0c0d;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      margin: 4rem 5vw 0px 5vw;
+      list-style-type: none;
+    }
+
+    .card {
+      position: relative;
+      display: block;
+      height: 100%;
+      border-radius: 15px;
+      overflow: hidden;
+      text-decoration: none;
+      background-color: #000;
+    }
+
+    .card__header{
+      background: rgba(0, 0, 0, 0.97);
+    }
+
+    .card__overlay:hover .card__header{
+      background: none;
+    }
+
+    .card__image {
+      width: 100%;
+      height: auto;
+    }
+
+    .card__overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      z-index: 1;
+      border-radius: 15px;
+      background-color: rgba(0, 0, 0, 0.97);
+      transform: translateY(100%);
+      transition: .2s ease-in-out;
+      height: 100%;
+    }
+
+    .card:hover .card__overlay {
+      transform: translateY(0%);
+    }
+
+    .card__header {
+      position: relative;
+      display: flex;
+      align-items: center;
+      gap: 2em;
+      padding: 2em;
+      border-radius: 15px 0 0 0;
+      transform: translateY(-100%);
+      transition: .2s ease-in-out;
+      margin-bottom: 30px;
+    }
+
+    .card__arc {
+      width: 80px;
+      height: 80px;
+      position: absolute;
+      bottom: 100%;
+      right: 0;
+      z-index: 1;
+    }
+
+    .card__arc path {
+      fill: var(--surface-color);
+      d: path("M 40 80 c 22 0 40 -22 40 -40 v 40 Z");
+    }
+
+    .card:hover .card__header {
+      transform: translateY(0);
+    }
+
+    .card__thumb {
+      flex-shrink: 0;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+
+    .card__title {
+      font-size: 20px;
+      margin: 0 0 .3em;
+      color: #fefdfd;
+    }
+
+    .card__tagline {
+      display: block;
+      margin: 1em 0;
+      font-family: "MockFlowFont";
+      font-size: .8em;
+      color: #D7BDCA;
+    }
+
+    .card__status {
+      font-size: .8em;
+      color: #D7BDCA;
+    }
+
+    .card__description {
+      padding: 30px;
+      color: #d6d6d6;
+      font-family: "MockFlowFont";
+      display: -webkit-box;
+      overflow: hidden;
+      font-size: 18px;
+      height: 70%;
+    }
+
+    .social-link {
+      width: 30px;
+      height: 30px;
+      border: 1px solid #ddd;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #666;
+      border-radius: 50%;
+      transition: all 0.3s;
+      font-size: 0.9rem;
+    }
+
+    .social-link:hover,
+    .social-link:focus {
+      background: #ddd;
+      text-decoration: none;
+      color: #555;
+    }
+
+    .home-container23 {
+      width: 486px;
+      height: 231px;
+      display: flex;
+      margin-top: var(--dl-space-space-oneandhalfunits);
+      align-items: flex-start;
+      margin-left: 50px;
+      border-radius: var(--dl-radius-radius-radius4);
+      background-size: cover;
+      background-image: linear-gradient(90deg, rgba(102, 3, 3, 0.75) 25.00%, rgba(102, 3, 3, 0) 100.00%), url("public/external/edu.webp");
+      background-position: top left, center;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+
+    .home-text45 {
+      font-size: 50px;
+      align-self: center;
+      margin-left: var(--dl-space-space-oneandhalfunits);
+    }
+
+    .home-text46 {
+      color: #ffffff;
+      font-size: 40px;
+      font-family: "Outfit-Medium";
+    }
+
+    .home-text47 {
+      color: #ffffff;
+      font-size: 40px;
+      font-family: "Outfit-Medium";
+    }
+
+    .home-text48 {
+      color: #ffffff;
+      font-size: 40px;
+      font-family: "Outfit-Medium";
+    }
+
+    .home-container26 {
+      width: 486px;
+      height: 231px;
+      display: flex;
+      position: absolute;
+      align-items: flex-start;
+      border-radius: var(--dl-radius-radius-radius4);
+      background-size: cover;
+      background-image: linear-gradient(90deg, rgba(49, 145, 15, 0.75) 25.00%, rgba(49, 145, 15, 0) 100.00%), url("public/external/iitb%20main%20building_gc-300h.webp");
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+
+    .home-text60 {
+      color: #ffffff;
+      font-size: 50px;
+      align-self: center;
+      font-family: "Outfit-Medium";
+      margin-left: var(--dl-space-space-oneandhalfunits);
+    }
+
+    .home-container24 {
+      width: 486px;
+      height: 231px;
+      display: flex;
+      margin-top: var(--dl-space-space-oneandhalfunits);
+      align-items: flex-start;
+      margin-left: 50px;
+      border-radius: var(--dl-radius-radius-radius4);
+      background-size: cover;
+      background-image: linear-gradient(90deg, rgba(3, 54, 102, 0.75) 24.00%, rgba(3, 54, 102, 0) 100.00%), url("public/external/donation%20pic_ssd-300h.webp");
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+
+    .home-text50 {
+      font-size: 40px;
+      align-self: center;
+      margin-left: var(--dl-space-space-oneandhalfunits);
+    }
+
+    .home-text51 {
+      color: #ffffff;
+      font-size: 40px;
+      font-family: "Outfit-Medium";
+    }
+
+    .home-text52 {
+      color: #ffffff;
+      font-size: 40px;
+      font-family: "Outfit-Medium";
+    }
+
+    .home-text53 {
+      color: #ffffff;
+      font-size: 40px;
+      font-family: "Outfit-Medium";
+    }
+
+    .home-text54 {
+      color: #ffffff;
+      font-size: 40px;
+      font-family: "Outfit-Medium";
+    }
+
+    .home-text55 {
+      color: #ffffff;
+      font-size: 40px;
+      font-family: "Outfit-Medium";
+    }
+
+    .home-container25 {
+
+      width: 486px;
+      height: 231px;
+      display: flex;
+      position: absolute;
+      align-items: flex-start;
+      border-radius: var(--dl-radius-radius-radius4);
+      background-size: cover;
+      background-image: linear-gradient(90deg, rgba(72, 15, 145, 0.75) 23.00%, rgba(72, 15, 145, 0) 100.00%), url("public/external/fotis-fotopoulos-duhkov44prg-unsplash-500w.webp");
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+
+    .home-text57 {
+      font-size: 75px;
+      align-self: center;
+      margin-left: var(--dl-space-space-oneandhalfunits);
+    }
+
+    .home-text58 {
+      color: #ffffff;
+      font-size: 40px;
+      font-family: "Outfit-Medium";
+    }
+
+    .rounded {
+      border-radius: 34px;
+    }
+
+
+    /* ---------------------------------------------------------------------------------------------------------------------------------- */
+
+    .departments_container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+      margin-left: -110px;
+      box-sizing: border-box;
+    }
+
+
+
+    .edu_out {
+      background-size: cover;
+      background-image: linear-gradient(90deg, rgba(102, 3, 3, 0.75) 25.00%, rgba(102, 3, 3, 0) 100.00%), url(public/external/edu.webp);
+      width: 100%;
+      height: 21vh;
+      transition: background-color 0.3s ease;
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.5s ease;
+      border: 3px solid rgba(102, 3, 3, 0.75);
+      border-radius: 23px;
+      display: flex;
+      align-items: center;
+
+    }
+
+    .GC {
+      background-size: cover;
+      background-image: linear-gradient(90deg, rgba(49, 145, 15, 0.75) 25.00%, rgba(49, 145, 15, 0) 100.00%), url(public/external/ENS_Backgrnd.jpg);
+      width: 100%;
+      height: 21vh;
+      transition: background-color 0.3s ease;
+      position: relative;
+      overflow: hidden;
+      border-radius: 23px;
+      transition: transform 0.5s ease;
+      border: 3px solid rgba(49, 145, 15, 0.75);
+      display: flex;
+      align-items: center;
+      /* Adding transition effect */
+    }
+
+    .SSD {
+      background-size: cover;
+      background-image: linear-gradient(90deg, rgba(3, 54, 102, 0.75) 24.00%, rgba(3, 54, 102, 0) 100.00%), url(public/external/donation%20pic_ssd-300h.webp);
+      width: 100%;
+      height: 21vh;
+      transition: background-color 0.3s ease;
+      position: relative;
+      overflow: hidden;
+      border-radius: 23px;
+      transition: transform 0.5s ease;
+      /* Adding transition effect */
+      border: 3px solid rgba(3, 54, 102, 0.75);
+      display: flex;
+      align-items: center;
+    }
+
+    .CE {
+
+      background-size: cover;
+      background-image: linear-gradient(90deg, rgba(150, 103, 33, 0.75) 24.00%, rgba(150, 103, 33, 0) 100.00%), url(public/external/iitb%20main%20building_gc-300h.webp);
+      width: 100%;
+      height: 21vh;
+      transition: background-color 0.3s ease;
+      position: relative;
+      overflow: hidden;
+      border-radius: 23px;
+      transition: transform 0.5s ease;
+      /* Adding transition effect */
+      border: 3px solid rgba(3, 54, 102, 0.75);
+      display: flex;
+      align-items: center;
+    }
+
+    .row {
+      display: flex;
+      justify-content: center;
+    }
+
+    .contech {
+      background-size: cover;
+      background-image: linear-gradient(90deg, rgba(72, 15, 145, 0.75) 23.00%, rgba(72, 15, 145, 0) 100.00%), url(public/external/fotis-fotopoulos-duhkov44prg-unsplash-500w.webp);
+      width: 100%;
+      height: 21vh;
+      transition: background-color 0.3s ease;
+      position: relative;
+      overflow: hidden;
+      border-radius: 23px;
+      transition: transform 0.5s ease;
+      border: 3px solid rgba(72, 15, 145, 0.75);
+      display: flex;
+      align-items: center;
+
+    }
+
+
+    .edu_out::after,
+    .GC::after,
+    .SSD::after,
+    .contech::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 2px solid transparent;
+      z-index: 1;
+      transition: border-color 0.5s ease;
+
+    }
+
+    /* Apply running-border animation on hover */
+    .edu_out:hover,
+    .GC:hover,
+    .SSD:hover,
+    .contech:hover {
+      animation: running-border 2s linear infinite alternate;
+    }
+
+
+
+
+    .running-border {
+      animation: running-border 2s linear infinite alternate;
+      /* Border animation */
+    }
+
+    @keyframes running-border {
+      0% {
+        border-color: rgba(102, 3, 3, 0.75);
+        background-position: -100% 0;
+        /* Start position of the gradient */
+      }
+
+      25% {
+        border-color: rgba(49, 145, 15, 0.75);
+        background-position: 0 0;
+        /* Move the gradient to the next color */
+      }
+
+      50% {
+        border-color: rgba(3, 54, 102, 0.75);
+        background-position: 100% 0;
+        /* Move the gradient to the next color */
+      }
+
+      75% {
+        border-color: rgba(72, 15, 145, 0.75);
+        background-position: 0 100%;
+        /* Move the gradient to the next color */
+      }
+
+      100% {
+        border-color: rgba(102, 3, 3, 0.75);
+        background-position: -100% 100%;
+        /* Move the gradient back to the start */
+      }
+    }
+
+    .bg-white {
+      transition: transform 0.5s ease;
+    }
+
+    .bg-white:hover {
+      transform: scale(1.02);
+    }
+
+    /* ------------------------------------------------------------------------------------------------------------------------------ */
+
+
+    @import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    #nav {
+      position: fixed;
+      z-index: 50;
+    }
+
+    #nav img {
+      position: fixed;
+      top: 1.25rem;
+      left: 2.5rem;
+      z-index: 6;
+      height: 3.5rem;
+    }
+
+    #nav span {
+      position: fixed;
+      font-size: 38px;
+      font-weight: 400;
+      z-index: 120;
+      color: black;
+      top: 87vh;
+      left: 42vw;
+    }
+
+    #nav h1 {
+      transform: translateX(0px);
+      transition: 300ms;
+      position: fixed;
+      top: 2.25rem;
+      left: 6.5rem;
+      z-index: 6;
+      font-size: 18px;
+      font-weight: 900;
+      font-family: 'Montserrat', sans-serif;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-top: 0;
+      color: #ffffff;
+    }
+
+    #nav h1:hover {
+      transform: translateX(7px);
+      transition: 300ms;
+    }
+
+    #nav h1>span {
+      text-transform: none;
+      opacity: 0.5;
+      font-weight: 300;
+      font-size: 12px;
+    }
+
+    #nav a {
+      text-decoration: none;
+    }
+
+    #nav input+label {
+      position: fixed;
+      top: 37px;
+      right: 35px;
+      height: 19px;
+      width: 40px;
+      z-index: 5;
+    }
+
+    #nav input+label span {
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      top: 50%;
+      margin-top: -1px;
+      left: 0;
+      display: block;
+      background: #ffffff;
+      -webkit-transition: 0.5s;
+      -o-transition: 0.5s;
+      transition: 0.5s;
+    }
+
+    #nav-logo+#burger:checked {
+      top: 12rem;
+    }
+
+    #nav input+label span:first-child {
+      top: 3px;
+    }
+
+    #nav input+label span:last-child {
+      top: 16px;
+    }
+
+    #nav label:hover {
+      cursor: pointer;
+    }
+
+    #nav input:checked+label span {
+      opacity: 0;
+      top: 50%;
+    }
+
+    #nav input:checked+label span:first-child {
+      opacity: 1;
+      -webkit-transform: rotate(405deg);
+      -ms-transform: rotate(405deg);
+      transform: rotate(405deg);
+      background: white;
+    }
+
+    #nav input:checked+label span:last-child {
+      opacity: 1;
+      -webkit-transform: rotate(-405deg);
+      -ms-transform: rotate(-405deg);
+      transform: rotate(-405deg);
+      background: white;
+    }
+
+    #nav input~nav {
+
+      background: #272626;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100px;
+      z-index: 4 !important;
+      -webkit-transition: 0.5s;
+      -o-transition: 0.5s;
+      transition: 0.5s;
+      -webkit-transition-delay: 0.5s;
+      -o-transition-delay: 0.5s;
+      transition-delay: 0.5s;
+      overflow: hidden;
+    }
+
+    #nav input~nav>ul>li {
+      opacity: 0;
+      -webkit-transition: 0.5s;
+      -o-transition: 0.5s;
+      transition: 0.5s;
+      -webkit-transition-delay: 0s;
+      -o-transition-delay: 0s;
+      transition-delay: 0s;
+    }
+
+    #nav input~nav>ul>li>a {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #020304;
+      font-weight: 700;
+      font-family: sans-serif;
+      display: block;
+      padding: 30px;
+    }
+
+    #nav input:checked~nav {
+      height: 100%;
+      -webkit-transition-delay: 0s;
+      -o-transition-delay: 0s;
+      transition-delay: 0s;
+    }
+
+    #nav input:checked~nav>ul>li {
+      opacity: 1;
+      -webkit-transition-delay: 0.5s;
+      -o-transition-delay: 0.5s;
+      transition-delay: 0.5s;
+    }
+
+    #nav input:checked~#colorchange h1,
+    #nav input:checked~#colorchange h1:visited {
+      color: white;
+      -webkit-transition: 0.5s;
+      -o-transition: 0.5s;
+      transition: 0.5s;
+      -webkit-transition-delay: 0.5s;
+      -o-transition-delay: 0.5s;
+      transition-delay: 0.5s;
+    }
+
+    #colorchange:hover {
+      color: #47a3da;
+    }
+
+    #nav input:checked~#colorchange:hover {
+      color: white;
+      -webkit-transition: 0.5s;
+      -o-transition: 0.5s;
+      transition: 0.5s;
+      -webkit-transition-delay: 0.5s;
+      -o-transition-delay: 0.5s;
+      transition-delay: 0.5s;
+    }
+
+    /* mega style navbar */
+    /* General Demo Style */
+    /* @import url(https://fonts.googleapis.com/css?family=Lato:300, 400, 700); */
+
+    .icon-drop:before,
+    .icon-arrow-left:before {
+      font-family: 'fontawesome';
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      font-style: normal;
+      font-weight: normal;
+      line-height: 2;
+      text-align: center;
+      color: #47a3da;
+      -webkit-font-smoothing: antialiased;
+      text-indent: 8000px;
+      padding-left: 8px;
+    }
+
+    .icon-drop:before {
+      content: '\e000';
+    }
+
+    .icon-arrow-left:before {
+      content: '\f060';
+    }
+
+    .cbp-hrmenu {
+      width: 100%;
+      /* border-bottom: 4px solid #47a3da; */
+      text-align: left;
+    }
+
+    /* general ul style */
+    .cbp-hrmenu ul {
+      margin: 4px 25px;
+      padding: 0;
+      list-style-type: none;
+      font-size: 16px;
+    }
+
+    .cbp-hrmenu .cbp-hrsub-inner {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal !important;
+      -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+      flex-direction: row !important;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+    }
+
+    /* first level ul style */
+    .cbp-hrmenu>ul,
+    .cbp-hrmenu .cbp-hrsub-inner {
+      width: 90%;
+      max-width: 70em;
+      margin: 0 auto;
+      padding: 0 1.875em;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      max-height: 95vh;
+    }
+
+    .cbp-hrmenu>ul>li {
+      display: inline-block;
+    }
+
+    .cbp-hrmenu>ul>li>a {
+      font-weight: 700;
+      padding: 1em 2em;
+      color: #999;
+      display: inline-block;
+    }
+
+    .cbp-hrmenu>ul>li>a:hover {
+      color: #47a3da;
+    }
+
+    .cbp-hrmenu>ul>li.cbp-hropen a,
+    .cbp-hrmenu>ul>li.cbp-hropen>a:hover {
+      /* color: #fff; */
+      color: #eceaea;
+      /* background: #47a3da; */
+    }
+
+    /* sub-menu */
+    .cbp-hrmenu .cbp-hrsub {
+      display: none;
+      position: absolute;
+      background: #47a3da;
+      background-image: url('./public/external/images/bg.jpeg');
+      width: 100%;
+      height: 100vh;
+      left: 0;
+      -webkit-box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.8);
+      box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.8);
+    }
+
+    .cbp-hropen .cbp-hrsub {
+      display: block;
+      padding: 5em 0;
+    }
+
+    .cbp-hrmenu .cbp-hrsub-inner>div {
+      display: inline-block;
+      margin-right: 40px;
+    }
+
+    .cbp-hrmenu .cbp-hrsub-inner:before,
+    .cbp-hrmenu .cbp-hrsub-inner:after {
+      content: ' ';
+      display: table;
+    }
+
+    .cbp-hrmenu .cbp-hrsub-inner:after {
+      clear: both;
+    }
+
+    .cbp-hrmenu .cbp-hrsub-inner>div a {
+      line-height: 2em;
+    }
+
+    .cbp-hrsub a {
+      color: #afdefa;
+      margin: 0;
+      font-size: 22px;
+      font-weight: 300;
+    }
+
+    .icon {
+      font-family: 'fontello';
+      font-style: normal;
+      font-weight: normal;
+      /* speak: none; */
+      display: inline-block;
+      text-decoration: inherit;
+      width: 1em;
+      margin-right: 0.2em;
+      text-align: center;
+      /* opacity: .8; */
+      font-variant: normal;
+      text-transform: none;
+      line-height: 1em;
+      margin-left: 0.2em;
+      /* font-size: 120%; */
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+    }
+
+    /* Examples for media queries */
+
+    @media screen and (max-width: 52.75em) {
+      .cbp-hrmenu {
+        font-size: 80%;
+      }
+    }
+
+    @media screen and (max-width: 43em) {
+      .cbp-hrmenu {
+        font-size: 120%;
+        /* border: none; */
+      }
+
+      .cbp-hrmenu>ul,
+      .cbp-hrmenu .cbp-hrsub-inner {
+        width: 100%;
+        padding: 0;
+      }
+
+      .cbp-hrmenu .cbp-hrsub-inner {
+        /* padding: 0 2em; */
+        font-size: 75%;
+      }
+
+      .cbp-hrmenu>ul>li {
+        display: block;
+        /* border-bottom: 4px solid #47a3da; */
+      }
+
+      .cbp-hrmenu>ul>li>a {
+        display: block;
+        padding: 1em 3em;
+      }
+
+      .cbp-hrmenu .cbp-hrsub {
+        position: relative;
+      }
+
+      .cbp-hrsub a {
+        padding-top: 0.6em;
+      }
+    }
+
+    @media screen and (max-width: 36em) {
+      .cbp-hrmenu .cbp-hrsub-inner>div {
+        width: 100%;
+        float: none;
+        padding: 0 2em;
+      }
+    }
+
+    .row {
+      margin: auto;
+      max-width: 100%;
+      margin-left: 125px;
+    }
+
+    .nav-mobile ul li a {
+      font-size: 18px;
+    }
+
+    .nav-mobile ul {
+      display: none;
+    }
+
+    .nav-menufinal {
+      display: flex;
+      place-content: center;
+      align-items: center;
+      margin: 30px;
+      position: absolute;
+      left: -25rem;
+    }
+
+    .nav-menufinal li {
+      list-style: none;
+      z-index: 5;
+    }
+
+    .nav-menufinal li a {
+      font-size: 20px;
+      color: white;
+      padding: 10px;
+    }
+
+    /* Hover effect */
+    .nav-menufinal li a:hover {
+      background-color: grey;
+      /* Darker background on hover */
+      border-radius: 5px;
+      /* Rounded corners */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+    }
+
+
+    /* Active effect */
+    .nav-menufinal li a:active {
+      background-color: rgba(41, 41, 41, 0.5);
+      color: gray;
+      /* Even darker background for active item */
+    }
+
+    #nav h1 {
+      transform: translateX(0px);
+      position: fixed;
+      top: 2.25rem;
+      left: 6.5rem;
+      z-index: 6;
+      font-size: 18px;
+      font-weight: 900;
+      font-family: 'Montserrat', sans-serif;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-top: 0;
+      color: transparent;
+      background-image: linear-gradient(90deg, #d37474, #253183);
+      background-clip: text;
+      animation: gradientMove 5s linear infinite;
+    }
+
+
+
+    @media screen and (max-width: 1280px) {
+      .nav-menufinal {
+        display: none;
+      }
+    }
+  </style>
+
+  <link rel="stylesheet" href="https://unpkg.com/animate.css@4.1.1/animate.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet" href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css" />
+  <link href="./index.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="mediaQuary.css">
+
+
+</head>
+
+
+<body>
+
+  <div>
+
+    <div class="home-container">
+
+      <!-- Navbar -->
+      <section id="nav" class="no">
+
+        <a href="https://nss.gymkhana.iitb.ac.in/home/">
+          <img id="nav-logo" src="./public/external/nss logo.png" />
+        </a>
+
+
+        <input id="burger" type="checkbox" style="display: none" />
+
+        <label for="burger"> <span></span> <span></span> <span></span> </label>
+
+        <a id="colorchange" href="https://nss.gymkhana.iitb.ac.in/home/">
+          <h1>NSS, IIT Bombay</h1>
+        </a>
+
+        <ul class="nav-menufinal">
+          <li><a href="#HOME">HOME</a></li>
+          <li><a href="#ABOUT">ABOUT</a></li>
+          <li><a href="#reach">REACH</a></li>
+          <li><a href="#INITIATIVES">INITIATIVES</a></li>
+          <li><a href="#DEPARTMENTS">DEPARTMENTS</a></li>
+          <li><a href="#Collaborations">COLLABORATIONS</a></li>
+        </ul>
+
+
+
+        <nav class="cbp-hrmenu" style="z-index: 4">
+          <ul>
+            <li class="cbp-hropen">
+              <div class="cbp-hrsub">
+                <div class="cbp-hrsub-inner">
+                  <div class="part1">
+                    <div class="nav-mobile">
+                      <a class="preventDefault" href="#">Departments<i class="icon arrow-down"> &#x25bc;
+                        </i></a>
+                      <ul class="show">
+                        <li>
+                          <a href="https://nss.gymkhana.iitb.ac.in/depts/EO_website/index.html" ,
+                            target="_blank">Educational
+                            Outreach</a>
+                        </li>
+                        <li>
+                          <a href="https://nss.gymkhana.iitb.ac.in/depts/EnS_website/index.html" , target="_blank">
+                            Environment and
+                            Sustainability</a>
+                        </li>
+                        <li>
+                          <a href="https://nss.gymkhana.iitb.ac.in/depts/SD website/index.html" , target="_blank">Social
+                            Development</a>
+                        </li>
+                        <li>
+                          <a href="https://nss.gymkhana.iitb.ac.in/depts/CE_Website_/index.html" target="_blank">
+                            Campus Engagement
+                          </a>
+                        </li>
+                        <li>
+                          <a href="https://nss.gymkhana.iitb.ac.in/depts/contech website/index.html" ,
+                            target="_blank">Contech</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="nav-mobile">
+                      <a class="preventDefault" href="#">Blogs<i class="icon arrow-down"> &#x25bc;
+                        </i></a>
+                      <ul>
+                        <li>
+                          <a target="_blank"
+                            href="https://nssiitbblog.wordpress.com/category/green-campus/prakriti/">Prakriti</a>
+                        </li>
+                        <li>
+                          <a target="_blank"
+                            href="https://nssiitbblog.wordpress.com/category/parivartan/">Parivartan</a>
+                        </li>
+                        <li>
+                          <a target="_blank"
+                            href="https://nssiitbblog.wordpress.com/category/jigyasa-a-quest-to-learn/">Jigyasa</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="nav-mobile">
+                      <a class="preventDefault" href="#">YouTube <i class="icon arrow-down"> &#x25bc;
+                        </i></a>
+                      <ul>
+                        <li>
+                          <a target="_blank"
+                            href="https://www.youtube.com/playlist?list=PL7jZaz9RpobeLA6ZE5e-Is4HoLkADcdbj">Greenopedia</a>
+                        </li>
+                        <li>
+                          <a target="_blank" href="https://www.youtube.com/channel/UCiRgHJGPSMsMI3hcQKrm4yA">Open
+                            Learning Initiative - OLI</a>
+                        </li>
+                        <li>
+                          <a target="_blank" href="https://www.youtube.com/channel/UCskd3K0NyyHqZ1t7AMAYACQ">Tarang</a>
+                        </li>
+                        <li>
+                          <a target="_blank" href="https://www.youtube.com/channel/UC2iPnxGyKViqjV37f3r6uJw">Voice
+                            For Purpose - VFP</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="nav-mobile">
+                      <a class="preventDefault" href="#">About Us<i class="icon arrow-down"> &#x25bc;
+                        </i></a>
+                      <ul>
+                        <li>
+                          <a target="_blank" href="https://nss.gymkhana.iitb.ac.in/team/">Current
+                            Team</a>
+                        </li>
+                        <li>
+                          <a target="_blank" href="https://nss.gymkhana.iitb.ac.in/history/">History
+                            of NSS IITB</a>
+                        </li>
+                        <li>
+                          <a target="_blank" href="https://nss.gymkhana.iitb.ac.in/news">Media
+                            Coverage</a>
+                        </li>
+                        <li>
+                          <a target="_blank" href="https://nss.gymkhana.iitb.ac.in/ContactUs">Contact
+                            Us
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="part2">
+                    <div class="nav-mobile">
+                      <a class="preventDefault" href="#">Portals<i class="icon arrow-down"> &#x25bc;
+                        </i></a>
+                      <ul>
+                        <li>
+                          <a target="_blank" href="https://nss.gymkhana.iitb.ac.in/attendance-24//">Attendance Portal</a>
+                        </li>
+                        <li>
+                          <a target="_blank" href="https://nss.gymkhana.iitb.ac.in/certificates//">Certificate Portal</a>
+                        </li>
+                        <li>
+                          <a target="_blank" href="https://nss.gymkhana.iitb.ac.in/donation/">Make a
+                            Donation</a>
+                        </li>
+                        <li>
+                          <a target="_blank" href="https://nss.gymkhana.iitb.ac.in/nursery/">Nursery
+                            For All</a>
+                        </li>
+                        <li>
+                          <a target="_blank" href="https://nss.gymkhana.iitb.ac.in/clp/">Computer
+                            Literacy Program</a>
+                        </li>
+                        <li>
+                          <a target="_blank" href="https://nss.gymkhana.iitb.ac.in/nature_iitb/">Spices of Nature</a>
+                        </li>
+                        <li>
+                          <a target="_blank" href="https://nss.gymkhana.iitb.ac.in/nocs">NOCS
+                            portal</a>
+                        </li>
+                        <li>
+                          <a target="_blank" href="https://nss.gymkhana.iitb.ac.in/teach/">Let's
+                            Teach!</a>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div class="nav-mobile">
+                      <a class="preventDefault" href="#">Impacting Lives<i class="icon arrow-down">&#x25bc;</i></a>
+                      <ul>
+                        <li>
+                          <a target="_blank" href="https://nss.gymkhana.iitb.ac.in/flare-24/flare/index.html">FLARE</a>
+                        </li>
+                        <li>
+                          <a target="_blank" href="https://nss.gymkhana.iitb.ac.in/SoC/">Stories of
+                            Change</a>
+                        </li>
+                        <li>
+                          <a target="_blank" href="https://nss.gymkhana.iitb.ac.in/experiences/">My
+                            NSS Experiences</a>
+                        </li>
+                        <li>
+                          <a target="_blank" href="https://nss.gymkhana.iitb.ac.in/IH">Invisible
+                            Humans of IIT Bombay</a>
+                        </li>
+                        <li>
+                          <a target="_blank" href="https://nss.gymkhana.iitb.ac.in/memoirs">Memoirs</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="nav-mobile">
+                      <a class="preventDefault" href="#">Resources<i class="icon arrow-down"> &#x25bc;
+                        </i></a>
+                      <ul>
+                        <li>
+                          <a target="_blank" href="https://nss.gymkhana.iitb.ac.in/olidwd/">OLI Video
+                            Downloader</a>
+                        </li>
+                        <li>
+                          <a target="_blank" href="https://nss.gymkhana.iitb.ac.in/birds/home/">Birds
+                            of IIT-Bombay</a>
+                        </li>
+                        <li>
+                          <a target="_blank" href="https://nss.gymkhana.iitb.ac.in/greenopedia/home/">Greenopedia</a>
+                        </li>
+                        <li>
+                          <a target="_blank" href="https://nss.gymkhana.iitb.ac.in/gallery/">Gallery</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="nav-mobile">
+                      <a class="preventDefault" href="#">Annual Reports<i class="icon arrow-down">
+                          &#x25bc;</i></a>
+                      <ul>
+                        <li>
+                          <a target="_blank"
+                            href="https://nss.gymkhana.iitb.ac.in/assets/annual_report/AR1920.pdf">2019-20</a>
+                        </li>
+                        <li>
+                          <a target="_blank"
+                            href="https://nss.gymkhana.iitb.ac.in/assets/annual_report/AR1819.pdf">2018-19</a>
+                        </li>
+                        <li>
+                          <a target="_blank"
+                            href="https://nss.gymkhana.iitb.ac.in/assets/annual_report/AR1718.pdf">2017-18</a>
+                        </li>
+                        <li>
+                          <a target="_blank"
+                            href="https://nss.gymkhana.iitb.ac.in/assets/annual_report/AR1617.pdf">2016-17</a>
+                        </li>
+                        <li>
+                          <a target="_blank"
+                            href="https://nss.gymkhana.iitb.ac.in/assets/annual_report/AR1516.pdf">2015-16</a>
+                        </li>
+                        <li>
+                          <a target="_blank"
+                            href="https://nss.gymkhana.iitb.ac.in/assets/annual_report/AR1415.pdf">2014-15</a>
+                        </li>
+                        <li>
+                          <a target="_blank"
+                            href="https://nss.gymkhana.iitb.ac.in/assets/annual_report/AR1314.pdf">2013-14</a>
+                        </li>
+                        <li>
+                          <a target="_blank"
+                            href="https://nss.gymkhana.iitb.ac.in/assets/annual_report/AR1213.pdf">2012-13</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="nav-mobile">
+                      <a class="preventDefault" href="#">Newsletters<i class="icon arrow-down"> &#x25bc;
+                        </i></a>
+                      <ul>
+                        <li>
+                          <a target="_blank" href="../assets/departments/contech/Newsletter-2022.pdf ">2022-23</a>
+                        </li>
+                        <li>
+                          <a target="_blank" href="../assets/departments/contech/Newsletter-2021.pdf ">2021-22</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </section>
+
+      <div id="HOME" class="home-hero">
+        <span class="home-text" style="top: 20rem;">Think We, Not Me</span>
+        <div class="home-container04">
+          <div class="home-container05">
+            <div class="home-container06">
+              <div>
+                <img alt="image" src="public/external/nss%20logo-300h.webp" class="home-image2" />
+              </div>
+              <h1 class="home-text01">
+                <span class="home-text02  ">NSS</span>
+                <br class="home-text03" />
+                <span class="home-text04  ">IIT BOMBAY</span>
+                <br />
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div class="home-container07">
+          <div class="home-btn-group">
+            <a target="_blank" href="https://nss.gymkhana.iitb.ac.in/Attendance/server//">
+            <button class="home-button button">Login</button>
+          </a>
+          </div>
+            <a target="_blank" href="https://nss.gymkhana.iitb.ac.in/team/">
+          <button class="home-button1 button">Contact US</button>
+        </a>
+        </div>
+      </div>
+      <div id="ABOUT" class="home-about-us">
+        <div class="home-container08">
+          <div class="home-container09">
+            <div class="home-container10">
+              <div class="home-testimonial-card">
+                <h1 class="home-text06" id="table">Who Are We?</h1>
+                <span class="home-text07   ">
+                  <p> The National Service Scheme at IIT Bombay is the largest
+                    student volunteer organization on campus, dedicated to
+                    social and community service. We offer students
+                    opportunities to make a positive impact on society through
+                    various departments, from education for the underprivileged
+                    to using technology to solve social issues. Our primary goal
+                    is spreading happiness through community service, creating
+                    joyful moments for campus residents through innovative
+                    activities. Being part of NSS brings happiness to everyone
+                    involved.</p>
+                </span>
+              </div>
+            </div>
+            <div class="home-container11">
+              <div class="home-testimonial-card1">
+                <span class="home-text08  ">
+                  <p> We aim to bring about a positive change in the society with
+                    focus on Education and Development of the underprivileged,
+                    conserving Nature and sowing the seeds of Sustainability.
+                    More than 350 volunteers guided by a team of 40 members
+                    carry out several initiatives throughout the year. We also
+                    work in close collaboration with several NGOs and
+                    Governmental bodies to reach out to more and more
+                    beneficiaries.</p>
+                </span>
+                <h1 class="home-text09">What We Do?</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="home-our-reach" id="reach">
+        <div class="home-title">
+          <div class="home-container12">
+            <div class="home-container13"></div>
+            <span class="home-text10 phone-font">Our Reach</span>
+          </div>
+        </div>
+        <div class="home-container14">
+          <div class="home-container15" onmouseover="startCounting(this)">
+            <img alt="image" src="public/external/followers_white-200h.webp" class="home-image3" />
+            <span class="home-text11">
+              <span class="home-text12">14000+</span>
+              <br class="home-text13" />
+              <span class="home-text14">Facebook Followers</span>
+              <br />
+            </span>
+          </div>
+          <div class="home-container16" onmouseover="startCounting(this)">
+            <img alt="image" src="public/external/yt_white-200h.webp" class="home-image4" />
+            <span class="home-text16">
+              <span class="home-text17">120000+</span>
+              <br class="home-text18" />
+              <span class="home-text19">Youtube Subscribers</span>
+              <br />
+            </span>
+          </div>
+          <div class="home-container17" onmouseover="startCounting(this)">
+            <img alt="image" src="public/external/insta_white-200h.webp" class="home-image5" />
+            <span class="home-text21">
+              <span class="home-text22">2100+</span>
+              <br class="home-text23" />
+              <span class="home-text24">Instagram Followers</span>
+              <br />
+            </span>
+          </div>
+          <div class="home-container18" onmouseover="startCounting(this)">
+            <img alt="image" src="public/external/volunteer_white-200h.webp" class="home-image6" />
+            <span class="home-text26">
+              <span class="home-text27">600</span>
+              <br class="home-text28" />
+              <span class="home-text29">Volunteers</span>
+              <br />
+            </span>
+          </div>
+          <div class="home-container19" onmouseover="startCounting(this)">
+            <img alt="image" src="public/external/happy_white-200h.webp" class="home-image7" />
+            <span class="home-text31">
+              <span class="home-text32">4000+</span>
+              <br class="home-text33" />
+              <span class="home-text34">Happy Children</span>
+              <br />
+            </span>
+          </div>
+          <div class="home-container20" onmouseover="startCounting(this)">
+            <img alt="image" src="public/external/newspaper_white-200h.webp" class="home-image8" />
+            <span class="home-text36">
+              <span class="home-text37">30+</span>
+              <br class="home-text38" />
+              <span class="home-text39">News Highlights</span>
+              <br />
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="container" id="INITIATIVES">
+        <h1 class=" home-text44 text-center phone-font"><b>Initiatives</b></h1>
+
+
+
+        <ul class="cards">
+
+          <!-- <li>
+            <div class="item">
+              <div href="" class="card">
+                <img src="public/external/tiger.png" class="card__image" alt="">
+                <div class="card__overlay">
+                  <div class="card__header">
+                    <div class="card__header-text">
+                      <h3 class="card__title">Join Hands to Protect the Tigers</h3>
+                    </div>
+                  </div>
+                  <p class="card__description">On the occasion of World Tiger Day 2021, we conducted an online
+                    interactive session with renowned Indian Forest Service Officer Ms. KM Abharna, the real-life
+                    "Sherni"
+                    who inspired Vidya Balan's character in the recent Bollywood movie</p>
+                </div>
+              </div>
+            </div>
+          </li> -->
+
+
+
+         <!-- <li>
+            <div class="item">
+              <div href="" class="card">
+                <img src="public/external/wtp.png" class="card__image" alt="" />
+                <div class="card__overlay">
+                  <div class="card__header">
+                    <!- <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                  -->
+                    <!-- <img class="card__thumb" src="https://i.imgur.com/sjLMNDM.png" alt="" /> -->
+                    <!-- <div class="card__header-text">
+                      <h3 class="card__title">Words to Prof</h3> -->
+                      <!-- <span class="card__status">3 hours ago</span> -->
+                    <!-- </div>
+                  </div>
+                  <p class="card__description">Every year on Teachers' Day, NSS IIT Bombay provides all students
+                    in the
+                    instiute a chance to express their love and affection towards their professors</p>
+                </div>
+              </div>
+            </div>
+          </li> --> 
+
+
+          <li>
+            <div class="item">
+              <div href="" class="card">
+                <img src="public/external/flare.png" class="card__image" alt="" />
+                <div class="card__overlay">
+                  <div class="card__header">
+                    <!-- <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                      -->
+                    <!-- <img class="card__thumb" src="https://i.imgur.com/7D7I6dI.png" alt="" /> -->
+                    <div class="card__header-text">
+                      <h3 class="card__title">Flare</h3>
+                      <!-- <span class="card__tagline">Lorem ipsum dolor sit amet consectetur</span>             -->
+                      <!-- <span class="card__status">1 hour ago</span> -->
+                    </div>
+                  </div>
+                  <p class="card__description">FLARE is the Flagship event of NSS IIT Bombay. It is a series of
+                    online
+                    competitions, workshops and social events with participants from 30000+ schools and colleges
+                    Pan-India.</p>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="item">
+              <div href="" class="card">
+                <img src="public/external/Mangrove.png" class="card__image" alt="">
+                <div class="card__overlay">
+                  <div class="card__header">
+                    <div class="card__header-text">
+                      <h3 class="card__title">Mangrove Clean-Up</h3>
+                    </div>
+                  </div>
+                  <p class="card__description">Mangrove Clean-Up aims to preserve and protect the vital mangrove ecosystems. Volunteers participate in clean-up drives to maintain biodiversity and raise environmental conservation awareness. These efforts contribute significantly to the sustainability of our natural surroundings and promote ecological responsibility among the campus community.</p>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="item">
+              <div href="" class="card">
+                <img src="public/external/FieldVisit2018.jpg" class="card__image" alt="" />
+                <div class="card__overlay">
+                  <div class="card__header">
+                    <!-- <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                  -->
+                    <!-- <img class="card__thumb" src="https://i.imgur.com/sjLMNDM.png" alt="" /> -->
+                    <div class="card__header-text">
+                      <h3 class="card__title">Field Visit</h3>
+                      <!-- <span class="card__status">3 hours ago</span> -->
+                    </div>
+                  </div>
+                  <p class="card__description">We organized a skit and a demonstration to highlight how over
+                    irrigation
+                    and unregulated traditional methods of irrigation leads to low crop yield, pollution of
+                    groundwater
+                    resources, and how use of innovative technology can solve such issues.</p>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          
+          <li>
+            <div class="item">
+              <div href="" class="card">
+                <img src="public/external/Orphanage.jpg" class="card__image" alt="" />
+                <div class="card__overlay">
+                  <div class="card__header">
+                    <!-- <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                  -->
+                    <!-- <img class="card__thumb" src="https://i.imgur.com/sjLMNDM.png" alt="" /> -->
+                    <div class="card__header-text">
+                      <h3 class="card__title">Orphanage Visits</h3>
+                      <!-- <span class="card__status">3 hours ago</span> -->
+                    </div>
+                  </div>
+                  <p class="card__description">Orphanage visits focus on providing care, support, and educational resources to children in need. Volunteers spend time with the children, helping with their studies, organizing fun activities, and offering mentorship to nurture their growth and development. These visits aim to create a supportive environment where children feel valued and motivated to pursue their dreams.</p>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="item">
+              <div href="" class="card">
+                <img src="public/external/Plantation_Drive.jpg" class="card__image" alt="" />
+                <div class="card__overlay">
+                  <div class="card__header">
+                    <!-- <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                  -->
+                    <!-- <img class="card__thumb" src="https://i.imgur.com/sjLMNDM.png" alt="" /> -->
+                    <div class="card__header-text">
+                      <h3 class="card__title">Plantation Drive</h3>
+                      <!-- <span class="card__status">3 hours ago</span> -->
+                    </div>
+                  </div>
+                  <p class="card__description">The Plantation Drive focuses on increasing green cover and promoting environmental sustainability. Volunteers participate in tree-planting activities across campus and nearby areas, aiming to create a healthier and more eco-friendly environment. These drives also educate participants on the importance of biodiversity and environmental stewardship, fostering a sense of responsibility towards nature.</p>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="item">
+              <div href="" class="card">
+                <img src="public/external/VFP.jpg" class="card__image" alt="" />
+                <div class="card__overlay">
+                  <div class="card__header">
+                    <!-- <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                  -->
+                    <!-- <img class="card__thumb" src="https://i.imgur.com/sjLMNDM.png" alt="" /> -->
+                    <div class="card__header-text">
+                      <h3 class="card__title">Voice For Purpose</h3>
+                      <!-- <span class="card__status">3 hours ago</span> -->
+                    </div>
+                  </div>
+                  <p class="card__description">The next educational portal of NSS IIT Bombay is here, this one
+                    catering to
+                    blind people. Voice For Purpose, wherein we upload audio books of various popular novels and
+                    stories. Visit the <a href="https://www.youtube.com/channel/UC2iPnxGyKViqjV37f3r6uJw">Channel</a> to
+                    know more</p>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          
+          <li>
+            <div class="item">
+              <div href="" class="card">
+                <img src="public/external/GCD.jpg" class="card__image" alt="" />
+                <div class="card__overlay">
+                  <div class="card__header">
+                    <!-- <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                  -->
+                    <!-- <img class="card__thumb" src="https://i.imgur.com/sjLMNDM.png" alt="" /> -->
+                    <div class="card__header-text">
+                      <h3 class="card__title">Graduation Collection Drive</h3>
+                      <!-- <span class="card__status">3 hours ago</span> -->
+                    </div>
+                  </div>
+                  <p class="card__description">"Happiness comes in byte-sized pieces, some small, some large. It
+                    infects
+                    one person, and spreads like a ripple, till it becomes an epidemic. We rise by lifting
+                    others."
+                    NSS IIT Bombay continues its struggle to give more meaning to someone's graduation and to
+                    someone's
+                    need.</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item">
+              <div href="" class="card">
+                <img src="public/external/UMMEED.jpg" class="card__image" alt="" />
+                <div class="card__overlay">
+                  <div class="card__header">
+                    <!-- <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                  -->
+                    <!-- <img class="card__thumb" src="https://i.imgur.com/sjLMNDM.png" alt="" /> -->
+                    <div class="card__header-text">
+                      <h3 class="card__title">UMMEED</h3>
+                      <!-- <span class="card__status">3 hours ago</span> -->
+                    </div>
+                  </div>
+                  <p class="card__description">We teach the kids of construction workers from the labor camp and
+                    are
+                    grateful to our volunteers for sparking this 'UMMEED' in these young hearts.</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item">
+              <div href="" class="card">
+                <img src="public/external/perma.jpg" class="card__image" alt="" />
+                <div class="card__overlay">
+                  <div class="card__header">
+                    <!-- <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
+                <img class="card__thumb" src="https://i.imgur.com/sjLMNDM.png" alt="" /> -->
+                    <div class="card__header-text">
+                      <h3 class="card__title">Permaculture</h3>
+                      <!-- <span class="card__status">3 hours ago</span> -->
+                    </div>
+                  </div>
+                  <p class="card__description">Whenever there's been fusion between science and nature, the
+                    product has
+                    always been amazing. Permaculture is one such thing where the agriculture is just made more
+                    fruitful
+                    not by chemicals but by utilising the elements of natur itself, be it the sun, or wind, or
+                    soil.</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item">
+              <div class="card">
+                <img src="public/external/wildside.jpeg" class="card__image" alt="" />
+                <div class="card__overlay">
+                  <div class="card__header">
+                    <!-- <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
+                <img class="card__thumb" src="https://i.imgur.com/sjLMNDM.png" alt="" /> -->
+                    <div class="card__header-text">
+                      <h3 class="card__title">The Wild Side of IIT-Bombay</h3>
+                      <!-- <span class="card__status">3 hours ago</span> -->
+                    </div>
+                  </div>
+                  <p class="card__description">We had a "TALK". The study, led by Dr Quadros alongwith WWF (World
+                    Wildlife
+                    Fund), continues to be relevant to this day as the sole source of information on the flora
+                    and fauna
+                    of the campus.</p>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="item">
+              <div class="card">
+                <img src="public/external/OldAgeHome.jpg" class="card__image" alt="" />
+                <div class="card__overlay">
+                  <div class="card__header">
+                    <!-- <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
+                <img class="card__thumb" src="https://i.imgur.com/sjLMNDM.png" alt="" /> -->
+                    <div class="card__header-text">
+                      <h3 class="card__title">Old Age Home Visits</h3>
+                      <!-- <span class="card__status">3 hours ago</span> -->
+                    </div>
+                  </div>
+                  <p class="card__description">Visits to old age homes foster intergenerational connections and provide emotional support to the elderly. Volunteers engage in activities like storytelling, games, and conversations, aiming to bring joy and companionship to senior citizens. These visits help bridge the gap between generations, promoting mutual understanding and respect while enhancing the emotional well-being of the elderly.</p>
+                </div>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+        <div>
+          <button id="seeAllBtn">See All</button>
+          <button id="seeLessBtn" class="hidden">See Less</button>
+        </div>
+      </div>
+
+      <h1 class="home-text10 phone-font" style="margin-bottom: 38px ; margin-top: 88px;">Departments</h1>
+      <div id="DEPARTMENTS" class="container departments_container">
+
+        <div class="row text-left">
+
+          <div class="col-xl-6 mb-5 dep ">
+            <a href="https://nss.gymkhana.iitb.ac.in/depts/EO_website/index.html" style="text-decoration: none;"
+              target="_blank">
+              <div class="bg-white shadow-sm py-5 px-4 edu_out ">
+
+                <span class="home-text45">
+                  <span class="home-text46">Educational&nbsp;</span>
+                  <br class="home-text47">
+                  <span class="home-text48">Outreach</span>
+                  <br>
+                </span>
+              </div>
+            </a>
+          </div>
+          <div class="col-xl-6 mb-5 dep">
+            <a href="https://nss.gymkhana.iitb.ac.in/depts/EnS_website/index.html" style="text-decoration: none"
+              target="_blank">
+              <div class="bg-white shadow-sm py-5 px-4 GC ">
+
+                <span class="home-text60">
+                  <span>Environment &</span>
+                  <br />
+                  <span>Sustainability</span>
+                </span>
+              </div>
+            </a>
+          </div>
+          <div class="col-xl-6 mb-5  dep">
+            <a href="https://nss.gymkhana.iitb.ac.in/depts/SD website/index.html" style="text-decoration: none;"
+              target="_blank">
+              <div class="bg-white shadow-sm py-5 px-4 SSD ">
+
+                <span class="home-text50">
+
+                  <span class="home-text53">Social</span>
+                  <br class="home-text54" />
+                  <span class="home-text55">Development</span>
+                  <br />
+                </span>
+
+              </div>
+            </a>
+          </div>
+
+
+          <div class="col-xl-6 mb-5  dep">
+            <a href="https://nss.gymkhana.iitb.ac.in/depts/CE_Website_/index.html" style="text-decoration: none;"
+              target="_blank">
+              <div class="bg-white shadow-sm py-5 px-4 CE ">
+
+                <span class="home-text50">
+
+                  <span class="home-text53">Campus</span>
+                  <br class="home-text54" />
+                  <span class="home-text55">Engagement</span>
+                  <br />
+                </span>
+
+              </div>
+            </a>
+          </div>
+
+          <div class="col-xl-6 mb-5 dep ">
+            <a href="https://nss.gymkhana.iitb.ac.in/depts/contech website/index.html" style="text-decoration: none;"
+              target="_blank">
+              <div class="bg-white shadow-sm py-5 px-4 contech">
+
+                <span class="home-text57">
+                  <span class="home-text58">Contech</span>
+                  <br />
+                </span>
+              </div>
+            </a>
+
+            <!-- <img src="./public/external/images/gc_img.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">   -->
+
+          </div><!-- End -->
+        </div>
+
+      </div>
+
+      <div class="home-our-reach1" id="Collaborations">
+        <div class="home-title1">
+          <div class="home-container27">
+            <div class="home-container28"></div>
+            <span class="home-text64 phone-font">Our Collaborations</span>
+          </div>
+        </div>
+        
+        <div class="home-container29">
+          <a href="https://mumbai.ashanet.org/" target="_blank">
+            <img alt="pastedImage" src="public/external/asha.png" class="home-pasted-image" />
+          </a>
+          <a target="_blank" href="https://nss.gymkhana.iitb.ac.in/clp/">
+            <img alt="pastedImage" src="public/external/CLP.png " class="home-pasted-image" />
+          </a>
+          <a href="https://www.greenyatra.org/" target="_blank">
+            <img alt="pastedImage" src="public/external/greenyatra.png" class="home-pasted-image" />
+          </a>
+          <a href="https://lccwa.ketto.org/pages/about-us" target="_blank">
+            <img alt="pastedImage" src="public/external/LCCWA.png" class="home-pasted-image" />
+          </a>
+          
+          <!-- <a href="https://www.motivationforexcellence.org/" target="_blank">
+              <img alt="pastedImage" src="public/external/mfe.png" class="home-pasted-image" style="width: 300px;" />
+            </a> -->
+          <a href="http://wcgindia.org/wcg-neem-school/" target="_blank">
+            <img alt="pastedImage" src="public/external/neemschool.png" class="home-pasted-image" />
+          </a>
+          <a href="https://www.udaanindiafoundation.org/" target="_blank">
+            <img alt="pastedImage" src="public/external/udaan.png" class="home-pasted-image" />
+          </a>
+          <a href="https://vidya-india.org/" target="_blank">
+            <img alt="pastedImage" src="public/external/vidya.png" class="home-pasted-image" />
+          </a>
+
+        </div>
+
+        <div class="footer">
+          <div class="footer-flex">
+            <div class="footer-about-us">
+              <h3 class="footer-title">ABOUT US</h3>
+              <p class="footer-text">We provide opportunities to students to contribute their bit in the welfare of
+                the
+                society.<br> NSS has departments spanning all avenues of community service right from educating the
+                underprivileged<br> to innovating solutions to social problems using technology.</p>
+            </div>
+
+            <div class="recent-blogs">
+              <h3 class="footer-title">RECENT BLOG</h3>
+              <div class="blog">
+                <a class="blog-image-link"
+                  href="https://nssiitbblog.wordpress.com/2022/08/09/the-journey-from-nss-iit-bombay-to-iiit-bhopal/"
+                  target="_blank"><img src="./public/external/blog1_copy.jpg" class="blog-image"> </a>
+                <a class="blog-text-link" target="_blank"
+                  href="https://nssiitbblog.wordpress.com/2022/08/09/the-journey-from-nss-iit-bombay-to-iiit-bhopal/">
+                  <p class="blog-text">The Journey From NSS, IIT Bombay to IIIT Bhopal</p>
+                </a>
+                <img src="../common/images/cal.webp" class="blog-cal">
+                <p class="blog-date">Aug 09, 2022</p>
+              </div>
+              <div class="blog">
+                <a class="blog-image-link"
+                  href="https://nssiitbblog.wordpress.com/2022/10/14/organic-farming-and-switching-to-organic-farming/"
+                  target="_blank"><img src="./images/slide-1.jpg" class="blog-image"> </a>
+                <a class="blog-text-link" target="_blank"
+                  href="https://nssiitbblog.wordpress.com/2022/10/14/organic-farming-and-switching-to-organic-farming/">
+                  <p class="blog-text">Organic farming and switching to organic farming </p>
+                </a>
+                <img src="../common/images/cal.webp" class="blog-cal">
+                <p class="blog-date">Oct 14, 2022</p>
+              </div>
+            </div>
+
+            <div class="contact">
+              <h3 class="footer-title">HAVE A QUESTION?</h3>
+              <div class="data">
+                <img src="./public/external/gps.png" class="footer-gps">
+                <img src="./public/external/phone.png" class="footer-phone">
+                <img src="../common/images/mail.png" class="footer-mail">
+                <p class="loc">NSS Room, Old SAC, IIT Bombay, Powai-400076</p>
+                <p class="number"> +919890733750, +918690625357</p>
+                <a href="mailto:team.nss.iitb@gmail.com" style="color: white;">
+                  <p class="mail">team.nss.iitb@gmail.com </p>
+                </a>
+
+              </div>
+            </div>
+          </div>
+          <div class="socials">
+
+            <a target="_blank" href="https://nssiitbblog.wordpress.com/"><img class="footer-image twitter"
+                src="../common/images/wordpress.png"></a>
+
+            <a target="_blank" href="https://twitter.com/nss_iitb"><img class="footer-image twitter"
+                src="../common/images/twitter.png"></a>
+
+            <a target="_blank" href="https://facebook.com/nssiitbombay/"><img class="footer-image linkedin"
+                src="../common/images/fb.png"></a>
+
+            <a target="_blank" href="https://in.linkedin.com/company/nssiitbombay"><img class="footer-image linkedin"
+                src="../common/images/linkedin.png" alt="ln"></a>
+
+            <a target="_blank" href="https://www.instagram.com/nssiitb/?hl=en"><img class="footer-image linkedin"
+                src="../common/images/ig.png"></a>
+
+            <a target="_blank" href="https://www.youtube.com/c/NationalServiceSchemeIITBombay"><img
+                class="footer-image twitter" src="../common/images/youtube.png"></a>
+          </div>
+          <p class="copyright">Copyright © 2022 All Rights Reserved</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <script>
+
+    $(function () { // DOM ready
+      //If a link has a dropdown, add sub menu toggle.
+      $('nav ul li a:not(:only-child)').click(function (e) {
+        $(this).siblings('.nav-dropdown').toggle();
+        // Close one dropdown when selecting another
+        $('.nav-dropdown').not($(this).siblings()).hide();
+        e.stopPropagation();
+      });
+      // Clicking away from dropdown will remove the dropdown class
+      $('html').click(function () {
+        $('.nav-dropdown').hide();
+      });
+      // Toggle open and close nav styles on click
+      $('#nav-toggle').click(function () {
+        $('nav ul').slideToggle();
+        $('#nav-toggle').toggleClass('active');
+      });
+    }); // end DOM ready
+
+    function startCounting(element) {
+      var countSpan = element.querySelector('.home-text12, .home-text17, .home-text22, .home-text27, .home-text32, .home-text37');
+      var targetCount = parseInt(countSpan.textContent.replace(/,/g, '')); // Remove commas from existing content
+      var currentCount = 0;
+
+      if (!element.classList.contains('counting')) {
+        element.classList.add('counting');
+
+        var countingInterval = setInterval(function () {
+          currentCount += Math.ceil(targetCount / 100); // Adjust the speed of counting
+          countSpan.textContent = currentCount.toLocaleString(); // Use toLocaleString for better number formatting
+
+          if (currentCount >= targetCount) {
+            clearInterval(countingInterval);
+            countSpan.textContent = targetCount.toLocaleString(); // Use toLocaleString for better number formatting
+
+            // Remove the 'counting' class to enable counting on hover again
+            // element.classList.remove('counting');
+          }
+        }, 20);
+      }
+    }
+
+    // Using scrollTrigger to fire above function
+
+    ScrollTrigger.create({
+      trigger: document.getElementById('reach'),
+      onEnter: () => {
+        startCounting(document.getElementsByClassName('home-container15')[0]);
+        startCounting(document.getElementsByClassName('home-container16')[0]);
+        startCounting(document.getElementsByClassName('home-container17')[0]);
+        startCounting(document.getElementsByClassName('home-container18')[0]);
+        startCounting(document.getElementsByClassName('home-container19')[0]);
+        startCounting(document.getElementsByClassName('home-container20')[0]);
+      },
+    });
+
+    window.addEventListener("scroll", revealTextOnScroll);
+
+    function revealTextOnScroll() {
+      var testimonialCards = document.querySelectorAll(".home-testimonial-card, .home-testimonial-card1");
+
+      for (var i = 0; i < testimonialCards.length; i++) {
+        var windowHeight = window.innerHeight;
+        var elementTop = testimonialCards[i].getBoundingClientRect().top;
+        var elementVisible = 150;
+
+        if (elementTop < windowHeight - elementVisible) {
+          testimonialCards[i].classList.add("active");
+        }
+      }
+    }
+
+
+    // document.addEventListener("DOMContentLoaded", function () {
+    //   const logo = document.querySelector('.home-image2');
+
+    //   const moveLogo = (event) => {
+    //     const { clientX, clientY } = event;
+    //     const rect = logo.getBoundingClientRect();
+    //     const centerX = rect.left + rect.width / 2;
+    //     const centerY = rect.top + rect.height / 2;
+    //     const deltaX = clientX - centerX;
+    //     const deltaY = centerY - clientY;
+
+    //     const angleX = (deltaY / centerY) * 25;
+    //     const angleY = (deltaX / centerX) * 25;
+
+    //     logo.style.transform = `rotateX(${angleX}deg) rotateY(${angleY}deg) translateZ(20px)`;
+    //   };
+
+    //   document.addEventListener('mousemove', moveLogo);
+
+    //   logo.addEventListener('mouseenter', function () {
+    //     logo.classList.add('move');
+    //   });
+
+    //   logo.addEventListener('mouseleave', function () {
+    //     logo.classList.remove('move');
+    //     logo.style.transform = 'rotateX(0) rotateY(0) translateZ(0)';
+    //   });
+    // });
+
+
+    $(document).ready(function () {
+      // Hide all dropdown menus initially
+      $('.nav-mobile ul').hide();
+
+      // Toggle dropdown menus when clicking on menu items
+      $('.nav-mobile .preventDefault').click(function (e) {
+        e.preventDefault();
+        var $menuItem = $(this).next('ul');
+        $menuItem.slideToggle();
+        $('.nav-mobile ul').not($menuItem).slideUp();
+      });
+
+      // Toggle the visibility of the main menu when clicking on hamburger icon
+      $('#burger').click(function () {
+        // Check if the hamburger icon is checked
+        if ($(this).is(':checked')) {
+          // If it's checked, hide all dropdown menus
+          $('.nav-mobile ul').slideUp();
+        }
+        // Toggle the main menu
+        $('ul.nav-menufinal').slideToggle();
+      });
+    });
+
+
+    function includeHTML() {
+      var z, i, elmnt, file, xhttp;
+      /*loop through a collection of all HTML elements:*/
+      z = document.getElementsByTagName('*');
+      for (i = 0; i < z.length; i++) {
+        elmnt = z[i];
+        /*search for elements with a certain atrribute:*/
+        file = elmnt.getAttribute('w3-include-html');
+        if (file) {
+          /*make an HTTP request using the attribute value as the file name:*/
+          xhttp = new XMLHttpRequest();
+          xhttp.onreadystatechange = function () {
+            if (this.readyState == 4) {
+              if (this.status == 200) {
+                elmnt.innerHTML = this.responseText;
+              }
+              // if (this.status == 404) {
+              //   elmnt.innerHTML = 'Page not found.';
+              // }
+              /*remove the attribute, and call this function once more:*/
+              elmnt.removeAttribute('w3-include-html');
+              includeHTML();
+            }
+          };
+          xhttp.open('GET', file, true);
+          xhttp.send();
+
+          return;
+        }
+      }
+    }
+
+
+    function includeNav() {
+      var z, i, elmnt, file, xhttp;
+      /*loop through a collection of all HTML elements:*/
+      z = document.getElementsByTagName('*');
+      for (i = 0; i < z.length; i++) {
+        elmnt = z[i];
+        /*search for elements with a certain atrribute:*/
+        file = elmnt.getAttribute('w3-include-nav');
+        if (file) {
+          /*make an HTTP request using the attribute value as the file name:*/
+          xhttp = new XMLHttpRequest();
+          xhttp.onreadystatechange = function () {
+            if (this.readyState == 4) {
+              if (this.status == 200) {
+                elmnt.innerHTML = this.responseText;
+              }
+              // if (this.status == 404) {
+              //   elmnt.innerHTML = 'Page not found.';
+              // }
+              /*remove the attribute, and call this function once more:*/
+              elmnt.removeAttribute('w3-include-nav');
+            }
+          };
+          xhttp.open('GET', file, false);
+          xhttp.send();
+
+          $(document).ready(function () {
+            $('.nav-mobile ul').hide();
+            $('.nav-mobile .show').slideToggle();
+            $('.preventDefault').click(function (e) {
+              e.preventDefault();
+              var $menuItem = $(this).next('ul');
+              $menuItem.slideToggle();
+              $('.nav-mobile ul')
+                .not($menuItem)
+                .slideUp();
+            });
+          });
+
+          return;
+        }
+      }
+    }
+
+  </script>
+  <script src="js/script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
